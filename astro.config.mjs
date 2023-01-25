@@ -4,7 +4,7 @@ import react from '@astrojs/react';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://greeffer.com',
-	base: '/',
+	base: '/astro-react-template',
 
 	// Enable React to support React JSX components.
 	integrations: [react()],
